@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": "rec_egg_rice_bowl",
+      "title": "Egg & Brown Rice Bowl",
+      "time_min": 15,
+      "culture": ["Chinese"],
+      "diet_tags": ["halal_friendly"],
+      "nutrients": { "kcal": 420, "protein_g": 22, "carbs_g": 55, "fat_g": 12, "iron_mg": 3.2, "b12_mcg": 1.1 },
+      "why": "Steady energy: complex carbs + protein; iron/B12 sources for fatigue.",
+      "facets": ["steady_energy", "cuisine:Chinese", "halal"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "attribution": ["Foursquare", "Mapbox", "MUIS (verification)"],
+  "results": [
+    {
+      "id": "plc_cgj123",
+      "provider": "fsq",
+      "name": "ABC Congee House",
+      "lat": 1.2834,
+      "lng": 103.851,
+      "address": "123 Market St, #01-01, Singapore",
+      "distance_m": 420,
+      "rating": 4.3,
+      "price_level": "$$",
+      "open_now": true,
+      "cuisine_tags": ["Chinese", "Cantonese"],
+      "diet_tags": ["halal_verified"],
+      "match_facets": ["hydrating", "stomach_friendly", "cuisine:Chinese", "halal_verified"],
+      "actions": {
+        "directions_url": "https://maps.example/d/abc-congee",
+        "order_links": [{ "label": "GrabFood", "url": "https://grab.example/abc-congee" }]
+      },
+      "verification": { "muis_certified": true, "source_url": "https://muis.example/abc-congee" }
+    },
+    {
+      "id": "plc_juic789",
+      "provider": "fsq",
+      "name": "Hydra Smoothie & Juice",
+      "lat": 1.2842,
+      "lng": 103.8501,
+      "address": "8 Raffles Place, B1-02, Singapore",
+      "distance_m": 650,
+      "rating": 4.1,
+      "price_level": "$",
+      "open_now": true,
+      "cuisine_tags": ["Beverages"],
+      "diet_tags": ["veg_friendly"],
+      "match_facets": ["hydrating", "electrolyte"],
+      "actions": { "directions_url": "https://maps.example/d/hydra", "order_links": [] },
+      "verification": { "muis_certified": false }
+    }
+  ],
+  "page_token": null,
+  "served_in_ms": 73
+}
